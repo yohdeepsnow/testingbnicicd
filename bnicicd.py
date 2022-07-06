@@ -1,6 +1,6 @@
 import requests
 import os
-import datetime
+from datetime import datetime
 
 print ("hello world!")
 print ("testing ah nambahin baris")
