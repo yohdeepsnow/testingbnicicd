@@ -10,5 +10,5 @@ res = requests.get("https://www.google.com")
 
 a=datetime.now()
 
-with open(f"tempResponse/{a}.txt","w") as f:
+with open("tempResponse/"+str(a)+".txt","w") as f:
 	f.write(res.text)
